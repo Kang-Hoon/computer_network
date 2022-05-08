@@ -1,8 +1,7 @@
-'''
-소켓 프로그래밍을 통해, 
-'''
-
 from socket import *
+
+host = '127.0.0.1' #localhost IP
+port = 1234
 
 serverSock = socket(AF_INET, SOCK_STREAM)
 serverSock.bind(('', 8080))
